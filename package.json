@@ -2,7 +2,7 @@
   "name": "tugas_pwam1",
   "version": "1.0.0",
   "description": "Berikut merupakan virtual lab saya yang mengajarkan user-nya untuk memanggil instruksi dan melakukan operasi sederhana dengan operator (+) .",
-  "main": "api/index.js",
+  "main": "index.js",
   "scripts": {
     "devStart": "nodemon api/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
