@@ -6,7 +6,7 @@ const express = require("express");
 const path = require('path');
 const app = express();
 require('./database/db');
-const port = 3000; //PORT WEBSITE
+const port = process.env.PORT || 3000; //PORT WEBSITE
 
 //MIDDLEWARE
 app.use(express.json());
